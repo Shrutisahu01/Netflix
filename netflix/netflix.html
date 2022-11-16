@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+    <div class="nav" id="nav"><img src="netflix-logo.png" alt="" class="nav-logo">
+    <img src="images/netflix-avatar.png" alt="" class="nav-avatar"></div>
+    <div class="banner">
+        <div class="banner-content">
+            <h1 class="banner-title">Money Heist</h1>
+            <div class="banner-button">
+                <button class="banner-button">Play</button>
+                <button class="banner-button">My-list</button>
+            </div>
+            <div class="banner-description">
+                Eight thieves take hostages and lock themselves in the Royal Mint of Spain as a criminal mastermind manipulates the police to carry out his plan. 
+            </div>
+        </div>
+        <div class="banner_fadebottom"></div>
+    </div>
+     <div class="row">
+    <h2>Netflix Documentry</h2>
+    <div class="row_posters">
+        <img src="images/mark of the devil.jpg" alt=""class="row_posterlarge">
+        <img src="images/exx.jpg" alt=""class="row_posterlarge">
+        <img src="images/cluelesss.jpg" alt=""class="row_posterlarge">
+        <img src="images/large-movie2.jpg" alt=""class="row_posterlarge">
+        <img src="images/zombieland.jpg" alt=""class="row_posterlarge">
+        <img src="images/penthouse.jpg" alt=""class="row_posterlarge">
+    </div>
+    </div>
+    </div>
+    <div class="row">
+    <h2>Trending Now</h2>
+    <div class="row_posters">
+        <img src="images/silver.jpg" alt="" class="row_poster">
+        <img src="images/Sherdil-The_Pilibhit_Saga_poster.jpg" alt="" class="row_poster">
+        <img src="images/The_Good_Doctor_2017.png" alt="" class="row_poster">
+        <img src="images/mark of the devil.jpg" alt="" class="row_poster">
+        <img src="images/kvb.avif" alt=""class="row_poster">
+        <img src="images/silver.jpg" alt=""class="row_poster">
+        <img src="images/Sherdil-The_Pilibhit_Saga_poster.jpg" alt=""class="row_poster">
+        <img src="images/The_Good_Doctor_2017.png" alt=""class="row_poster">
+        <img src="images/zombieland.jpg" alt=""class="row_poster">
+
+    </div>
+    </div>
+    <div class="row">
+    <h2>Romantic Movies</h2>
+    <div class="row_posters">
+        
+        
+        <img src="kvb.avif" alt=""class="row_poster">
+        
+        <img src="images/silver.jpg" alt=""class="row_poster">
+        <img src="images/Sherdil-The_Pilibhit_Saga_poster.jpg" alt=""class="row_poster">
+        <img src="images/The_Good_Doctor_2017.png" alt=""class="row_poster">
+        <img src="images/small-movie4.jpg" alt=""class="row_poster">
+        <img src="images/zombieland.jpg" alt=""class="row_poster">
+        <img src="images/itsokay.jpg" alt=""class="row_poster">
+        <img src="images/small-movie3.jpg" alt=""class="row_poster">
+    </div>
+    </div>
+    <div class="row">
+    <h2>K-Drama</h2>
+    <div class="row_posters">
+        <img src="images/penthoue.jpeg" alt=""class="row_poster">
+        <img src="images/Still_17-poster.jpg" alt=""class="row_poster">
+        <img src="images/Alchemy-of-Souls-kdramadiary.jpg" alt=""class="row_poster">
+        <img src="images/itsokay.jpg" alt=""class="row_poster">
+        <img src="images/whenmylove.webp" alt=""class="row_poster">
+        <img src="images/backstreet.jpeg" alt=""class="row_poster">
+        <img src="images/penthoue.jpeg" alt=""class="row_poster">
+        <img src="images/Vincenzo.webp" alt=""class="row_poster">
+        <img src="images/small-movie4.jpg" alt=""class="row_poster">
+    </div>
+    </div>
+    <div class="row">
+    <h2>Gritty TV Dramas</h2>
+    <div class="row_posters">
+        <img src="images/penthoue.jpeg" alt=""class="row_poster">
+        <img src="images/Still_17-poster.jpg" alt=""class="row_poster">
+        <img src="images/Alchemy-of-Souls-kdramadiary.jpg" alt=""class="row_poster">
+        <img src="images/itsokay.jpg" alt=""class="row_poster">
+        <img src="images/whenmylove.webp" alt=""class="row_poster">
+        <img src="images/backstreet.jpeg" alt=""class="row_poster">
+        <img src="images/penthoue.jpeg" alt=""class="row_poster">
+        <img src="images/Vincenzo.webp" alt=""class="row_poster">
+        <img src="images/small-movie3.jpg" alt=""class="row_poster">
+    </div>
+    </div>
+    <div class="row">
+    <h2>Top Ratings</h2>
+    <div class="row_posters">
+        <img src="images/silver.jpg" alt=""class="row_poster">
+        <img src="images/Sherdil-The_Pilibhit_Saga_poster.jpg" alt=""class="row_poster">
+        <img src="images/banner.jpg" alt=""class="row_poster">
+        <img src="images/zombieland.jpg" alt=""class="row_poster">
+        <img src="images/penthoue.jpeg" alt=""class="row_poster">
+        <img src="images/small-movie4.jpg" alt=""class="row_poster">
+
+    </div>
+    </div>
+    <script>
+        const nav=document.getElementById("nav");
+        window.addEventListener('scroll',() => {
+            if(window.scrollY >=100) {
+                nav.classList.add('nav-back')
+            } else{nav.classList.remove('nav-black')}
+        });
+    </script>
+</body>
+</html>
